@@ -1,0 +1,68 @@
+.nav{
+    grid-area: nav;
+    background: #2f2f2f;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.nav div a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    transition: .3s all;
+}
+
+.nav div:hover{
+    background: rgba(106, 105, 105, 0.82);
+    width: 100%;
+    transition: .1s all;
+    border-radius: 5px;
+}
+.nav div a:hover{
+    transform: translateX(10px);
+    color: #32b629;
+}
+.settings, .news, .message, .music, .profile{
+    position: relative;
+}
+.settings:before{
+    content: url("./icons/settings.png");
+    position: absolute;
+    left: 15px;
+    top: 9px;
+
+}
+
+.profile:before{
+    content: url("./icons/profile.png");
+    position: absolute;
+    left: 15px;
+    top: 9px;
+
+}
+
+.message:before{
+    content: url("./icons/message.png");
+    position: absolute;
+    left: 15px;
+    top: 9px;
+
+}
+.music:before{
+    content: url("./icons/music-store.png");
+    position: absolute;
+    left: 15px;
+    top: 9px;
+
+}
+.news:before{
+    content: url("./icons/newspaper.png");
+    position: absolute;
+    left: 15px;
+    top: 9px;
+
+}
