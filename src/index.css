@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(184, 184, 184, 0.85);
 }
 
 code {

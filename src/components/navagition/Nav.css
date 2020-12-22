@@ -29,19 +29,12 @@
 .settings, .news, .message, .music, .profile{
     position: relative;
 }
-.settings:before{
-    content: url("./icons/settings.png");
-    position: absolute;
-    left: 15px;
-    top: 9px;
-
-}
 
 .profile:before{
     content: url("./icons/profile.png");
     position: absolute;
     left: 15px;
-    top: 9px;
+    top: 7px;
 
 }
 
@@ -49,20 +42,28 @@
     content: url("./icons/message.png");
     position: absolute;
     left: 15px;
-    top: 9px;
-
-}
-.music:before{
-    content: url("./icons/music-store.png");
-    position: absolute;
-    left: 15px;
-    top: 9px;
+    top: 7px;
 
 }
 .news:before{
     content: url("./icons/newspaper.png");
     position: absolute;
     left: 15px;
-    top: 9px;
+    top: 7px;
+
+}
+.music:before{
+    content: url("./icons/music-store.png");
+    position: absolute;
+    left: 15px;
+    top: 7px;
+
+}
+
+.settings:before{
+    content: url("./icons/settings.png");
+    position: absolute;
+    left: 15px;
+    top: 7px;
 
 }

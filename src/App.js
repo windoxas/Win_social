@@ -8,7 +8,13 @@ function App() {
         <div className="App">
             <Header/>
             <Navigation/>
-            <Content/>
+            <Content
+                name="Nick Lengars"
+                birth="12 December 1996 year"
+                city="Tashkent"
+                work="Web developer Dream House"
+                site="www.jullies.com"
+            />
 
 
         </div>
